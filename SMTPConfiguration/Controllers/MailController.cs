@@ -19,7 +19,7 @@ namespace SMTPConfiguration.Controllers
         public async Task<IActionResult> SendMail()
         {
             await _email.SendEmailAsync(
-                "test@example.com",
+                "aliakber@dekkoisho.com",
                 "Test Email from ASP.NET Core",
                 "<h1>Hello from outlook SMTP!</h1>"
             );
